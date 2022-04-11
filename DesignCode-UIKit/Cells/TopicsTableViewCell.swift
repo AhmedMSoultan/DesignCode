@@ -31,8 +31,8 @@ class TopicsTableViewCell: UITableViewCell {
         // Accessibility
         
         topicLabel.adjustsFontForContentSizeCategory = true
-        topicLabel.font = UIFont.preferredFont(for: ., weight: .bold)
-        topicLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        topicLabel.font = UIFont.preferredFont(for: .headline, weight: .bold)
+        topicLabel.maximumContentSizeCategory = .large
          
     }
     

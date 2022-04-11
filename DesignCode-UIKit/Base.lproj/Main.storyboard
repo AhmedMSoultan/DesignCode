@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="xKz-X4-p7f">
-                                        <rect key="frame" x="0.0" y="92" width="414" height="464.5"/>
+                                        <rect key="frame" x="0.0" y="465" width="414" height="464.5"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5i-9l-s6H" customClass="CustomView" customModule="DesignCode_UIKit" customModuleProvider="target">
                                         <rect key="frame" x="16" y="20" width="382" height="366"/>
@@ -38,9 +38,9 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="217"/>
                                                         </imageView>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MI7-26-dGc">
-                                                            <rect key="frame" x="0.0" y="217" width="382" height="148.5"/>
+                                                            <rect key="frame" x="0.0" y="217" width="382" height="149"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9Dr-1H-2Mz">
-                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="148"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="149"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftUI for iOS 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vae-Sa-zi6">
@@ -333,13 +333,13 @@
                                                                 <constraint firstAttribute="height" constant="200" id="abe-2G-kR3"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPR-QV-Jp4">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPR-QV-Jp4">
                                                             <rect key="frame" x="20" y="228.5" width="342" height="33.5"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajt-ar-ojW">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajt-ar-ojW">
                                                             <rect key="frame" x="20" y="270" width="342" height="16"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -454,6 +454,8 @@
                         <outlet property="featuredDescription" destination="378-u2-2iw" id="RTt-kg-wVd"/>
                         <outlet property="featuredSubtitle" destination="2g4-KL-8zj" id="nvM-8K-4FS"/>
                         <outlet property="featuredTitle" destination="vae-Sa-zi6" id="3rV-Hv-QAf"/>
+                        <outlet property="recentCoursesLabel" destination="ZiX-dQ-7Yq" id="rlH-Nc-Gcd"/>
+                        <outlet property="recentHandbooksLabel" destination="1JH-DA-qPp" id="bPr-kV-7AY"/>
                         <outlet property="scrollView" destination="u8H-Ed-DmC" id="Z5e-JC-UzO"/>
                         <segue destination="lfP-Tv-bMh" kind="presentation" identifier="presentCourse" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="7lE-7C-B7l"/>
                     </connections>
@@ -474,7 +476,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background 4" translatesAutoresizingMaskIntoConstraints="NO" id="foA-8R-tsN">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
+                                        <rect key="frame" x="0.0" y="99" width="414" height="251"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 1" translatesAutoresizingMaskIntoConstraints="NO" id="FJw-lr-9tT">
                                         <rect key="frame" x="16" y="0.0" width="382" height="350"/>
@@ -483,12 +485,12 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OzE-NN-FxQ" customClass="CustomView" customModule="DesignCode_UIKit" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="234.5" width="382" height="203"/>
+                                        <rect key="frame" x="16" y="235" width="382" height="202.5"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2nE-fJ-iX1" customClass="CustomBlurView" customModule="DesignCode_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d57-ar-c0P">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="202"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrl-1v-eie" customClass="CustomView" customModule="DesignCode_UIKit" customModuleProvider="target">
@@ -535,7 +537,7 @@
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opf-Ln-t4g">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="z5s-Ok-Ugx">
-                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="203"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="202.5"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7y-fJ-N60">
@@ -822,7 +824,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkF-lw-uyG">
                                 <rect key="frame" x="366" y="60" width="32" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="bOB-xd-ybf"/>
+                                    <constraint firstAttribute="width" constant="32" id="bOB-xd-ybf"/>
                                     <constraint firstAttribute="height" constant="32" id="xQM-wa-4Hc"/>
                                 </constraints>
                                 <color key="tintColor" name="AccentColor"/>
@@ -893,7 +895,6 @@
                             <constraint firstItem="fWd-rk-7RG" firstAttribute="trailing" secondItem="lkF-lw-uyG" secondAttribute="trailing" constant="16" id="adS-EK-tXU"/>
                             <constraint firstAttribute="bottom" secondItem="SUM-zQ-dwj" secondAttribute="bottom" id="bhP-Mn-IPY"/>
                             <constraint firstItem="SUM-zQ-dwj" firstAttribute="leading" secondItem="edb-CE-lZm" secondAttribute="leading" id="dIv-XJ-Hm7"/>
-                            <constraint firstItem="lkF-lw-uyG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qVM-yO-zjV" secondAttribute="trailing" constant="8" symbolic="YES" id="dvk-yB-j7T"/>
                             <constraint firstItem="qVM-yO-zjV" firstAttribute="leading" secondItem="fWd-rk-7RG" secondAttribute="leading" constant="16" id="nna-yD-Bos"/>
                             <constraint firstItem="SUM-zQ-dwj" firstAttribute="top" secondItem="edb-CE-lZm" secondAttribute="top" id="un5-B6-h4U"/>
                             <constraint firstItem="SUM-zQ-dwj" firstAttribute="centerX" secondItem="edb-CE-lZm" secondAttribute="centerX" id="v7J-Ub-UVG"/>
@@ -1075,7 +1076,7 @@
                                                                             <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             <subviews>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFS-AU-xin">
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFS-AU-xin">
                                                                                     <rect key="frame" x="16" y="141" width="128" height="14.5"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                     <nil key="textColor"/>
@@ -1215,7 +1216,7 @@
                                                                                     </userDefinedRuntimeAttribute>
                                                                                 </userDefinedRuntimeAttributes>
                                                                             </view>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqc-Xe-zc2">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqc-Xe-zc2">
                                                                                 <rect key="frame" x="72" y="20" width="290" height="20.5"/>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                                 <nil key="textColor"/>
@@ -1496,7 +1497,10 @@
                     <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="xWh-ht-L31"/>
                     <connections>
                         <outlet property="popularCollectionView" destination="3el-aC-lha" id="zGt-z0-WM1"/>
+                        <outlet property="popularLabel" destination="MSO-oy-kEA" id="11Q-Mm-l1e"/>
+                        <outlet property="recentLabel" destination="CCq-mk-VYf" id="8fp-Te-WkX"/>
                         <outlet property="sectionsCollectionView" destination="aCX-fS-kGo" id="amw-2a-TI0"/>
+                        <outlet property="topicsLabel" destination="OA5-ou-hg9" id="gZs-6B-V7v"/>
                         <outlet property="topicsTableView" destination="ujM-oq-WKm" id="6fr-jp-Pqv"/>
                         <outlet property="topicsTableViewHeight" destination="cUd-n2-hrl" id="bE9-e3-Ljf"/>
                     </connections>

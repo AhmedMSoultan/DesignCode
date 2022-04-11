@@ -48,16 +48,16 @@ class CourseCollectionViewCell: UICollectionViewCell {
         
         // Accessibility
         titleLabel.adjustsFontForContentSizeCategory = true
-        titleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
-        titleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        titleLabel.font = UIFont.preferredFont(for: .headline, weight: .bold)
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
         
         subtitleLabel.adjustsFontForContentSizeCategory = true
-        subtitleLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
-        subtitleLabel.maximumContentSizeCategory = .accessibilityMedium
+        subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .semibold)
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
         
         descriptionLabel.adjustsFontForContentSizeCategory = true
-        descriptionLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
-        descriptionLabel.maximumContentSizeCategory = .accessibilityMedium
+        descriptionLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
+        descriptionLabel.maximumContentSizeCategory = .extraLarge
         
     }
     

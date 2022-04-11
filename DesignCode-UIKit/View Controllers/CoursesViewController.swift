@@ -77,6 +77,24 @@ class CoursesViewController: UIViewController {
         menuBtn.showsMenuAsPrimaryAction = true
         menuBtn.menu = menu
         
+        
+        //Accessibility
+        titleLabel.adjustsFontForContentSizeCategory = true
+        titleLabel.font = UIFont.preferredFont(for: .headline, weight: .bold)
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
+        
+        subtitleLabel.adjustsFontForContentSizeCategory = true
+        subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .semibold)
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
+        
+        descriptionLabel.adjustsFontForContentSizeCategory = true
+        descriptionLabel.font = UIFont.preferredFont(for: .caption2, weight: .regular)
+        descriptionLabel.maximumContentSizeCategory = .extraLarge
+        
+        authorLabel.adjustsFontForContentSizeCategory = true
+        authorLabel.font = UIFont.preferredFont(for: .caption2, weight: .regular)
+        authorLabel.maximumContentSizeCategory = .extraLarge
+        
     }
     
     @IBAction func closeBtnAction(_ sender: Any) {

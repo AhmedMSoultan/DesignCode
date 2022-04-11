@@ -18,6 +18,9 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var featuredSubtitle: UILabel!
     @IBOutlet weak var featuredDescription: UILabel!
     
+    @IBOutlet weak var recentHandbooksLabel: UILabel!
+    @IBOutlet weak var recentCoursesLabel: UILabel!
+    
     @IBOutlet weak var coursesTableView: UITableView!
     @IBOutlet weak var coursesTableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var scrollView: UIScrollView!
@@ -41,6 +44,7 @@ class FeaturedViewController: UIViewController {
         
         scrollView.delegate = self
         
+        //Accessibility
         featuredTitle.adjustsFontForContentSizeCategory = true
         featuredTitle.font = UIFont.preferredFont(for: .title1, weight: .bold)
         featuredTitle.maximumContentSizeCategory = .accessibilityExtraLarge
@@ -52,6 +56,14 @@ class FeaturedViewController: UIViewController {
         featuredDescription.adjustsFontForContentSizeCategory = true
         featuredDescription.font = UIFont.preferredFont(for: .footnote, weight: .regular)
         featuredDescription.maximumContentSizeCategory = .accessibilityMedium
+        
+        recentHandbooksLabel.adjustsFontForContentSizeCategory = true
+        recentHandbooksLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        recentHandbooksLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        recentCoursesLabel.adjustsFontForContentSizeCategory = true
+        recentCoursesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        recentCoursesLabel.maximumContentSizeCategory = .accessibilityMedium
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

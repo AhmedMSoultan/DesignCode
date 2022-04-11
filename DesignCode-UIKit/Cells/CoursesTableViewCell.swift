@@ -32,15 +32,15 @@ class CoursesTableViewCell: UITableViewCell {
         // Accessibility
         courseTitle.adjustsFontForContentSizeCategory = true
         courseTitle.font = UIFont.preferredFont(for: .title1, weight: .bold)
-        courseTitle.maximumContentSizeCategory = .accessibilityExtraLarge
+        courseTitle.maximumContentSizeCategory = .extraExtraLarge
         
         courseSubtitle.adjustsFontForContentSizeCategory = true
         courseSubtitle.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
-        courseSubtitle.maximumContentSizeCategory = .accessibilityMedium
+        courseSubtitle.maximumContentSizeCategory = .extraLarge
         
         courseDescription.adjustsFontForContentSizeCategory = true
         courseDescription.font = UIFont.preferredFont(for: .footnote, weight: .regular)
-        courseDescription.maximumContentSizeCategory = .accessibilityMedium
+        courseDescription.maximumContentSizeCategory = .extraLarge
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

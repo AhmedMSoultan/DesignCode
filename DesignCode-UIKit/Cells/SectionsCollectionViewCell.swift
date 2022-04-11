@@ -35,12 +35,12 @@ class SectionsCollectionViewCell: UICollectionViewCell {
         // Accessibility
         
         titleLabel.adjustsFontForContentSizeCategory = true
-        titleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
-        titleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        titleLabel.font = UIFont.preferredFont(for: .body, weight: .bold)
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
         
         subtitleLabel.adjustsFontForContentSizeCategory = true
-        subtitleLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
-        subtitleLabel.maximumContentSizeCategory = .accessibilityMedium
+        subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
     }
     
     override public func prepareForReuse() {

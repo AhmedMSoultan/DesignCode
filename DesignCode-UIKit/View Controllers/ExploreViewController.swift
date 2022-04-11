@@ -10,11 +10,15 @@ import Combine
 
 class ExploreViewController: UIViewController {
     
+    @IBOutlet weak var recentLabel: UILabel!
+    
     @IBOutlet weak var sectionsCollectionView: UICollectionView!
     @IBOutlet weak var topicsTableView: UITableView!
     @IBOutlet weak var topicsTableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var popularCollectionView: UICollectionView!
     
+    @IBOutlet weak var topicsLabel: UILabel!
+    @IBOutlet weak var popularLabel: UILabel!
     
     private var tokens: Set<AnyCancellable> = []
     
@@ -36,6 +40,18 @@ class ExploreViewController: UIViewController {
         popularCollectionView.dataSource = self
         popularCollectionView.layer.masksToBounds = false
         
+        // Accessibility
+        recentLabel.adjustsFontForContentSizeCategory = true
+        recentLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
+        recentLabel.maximumContentSizeCategory = .accessibilityLarge
+        
+        topicsLabel.adjustsFontForContentSizeCategory = true
+        topicsLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        topicsLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        popularLabel.adjustsFontForContentSizeCategory = true
+        popularLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        popularLabel.maximumContentSizeCategory = .accessibilityMedium
     }
 
 }

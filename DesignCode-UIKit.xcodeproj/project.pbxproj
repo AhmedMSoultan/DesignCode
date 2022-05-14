@@ -43,6 +43,7 @@
 		0AF97B68281853BF001DB1B2 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF97B65281853BF001DB1B2 /* CertificateView.swift */; };
 		0AF97B6A2819A0C4001DB1B2 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF97B692819A0C3001DB1B2 /* NotificationTableViewCell.swift */; };
 		0AF97B6C2819A21D001DB1B2 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF97B6B2819A21D001DB1B2 /* NotificationsViewController.swift */; };
+		0AF97B6E281AD084001DB1B2 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF97B6D281AD084001DB1B2 /* NotificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		0AF97B65281853BF001DB1B2 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
 		0AF97B692819A0C3001DB1B2 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		0AF97B6B2819A21D001DB1B2 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		0AF97B6D281AD084001DB1B2 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				0A89404027F6AD8E002B53D6 /* Course.swift */,
 				0A89404927F75AAE002B53D6 /* Section.swift */,
 				0A89405728021D5C002B53D6 /* Topic.swift */,
+				0AF97B6D281AD084001DB1B2 /* NotificationModel.swift */,
 			);
 			path = PONSOs;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				0AC91C1627F4A58D00E85AA9 /* AppDelegate.swift in Sources */,
 				0A89403A27F4F72A002B53D6 /* CustomBlurView.swift in Sources */,
 				0AF97B67281853BF001DB1B2 /* CertificateItem.swift in Sources */,
+				0AF97B6E281AD084001DB1B2 /* NotificationModel.swift in Sources */,
 				0A89404A27F75AAE002B53D6 /* Section.swift in Sources */,
 				0A89404627F74B89002B53D6 /* CoursesTableViewCell.swift in Sources */,
 				0AC91C1827F4A58D00E85AA9 /* SceneDelegate.swift in Sources */,

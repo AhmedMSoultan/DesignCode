@@ -20,7 +20,7 @@ class CustomTabBarController: UITabBarController {
         
         self.tabBar.selectionIndicatorImage = UIImage(named: "Selected")
         self.additionalSafeAreaInsets.top = 5
-        self.additionalSafeAreaInsets.bottom = 15
+        self.additionalSafeAreaInsets.bottom = 5
         
     }
     

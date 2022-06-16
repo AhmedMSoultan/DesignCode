@@ -28,9 +28,9 @@ class LoginViewController: UIViewController {
     private var tokens : Set<AnyCancellable> = []
     var loginStatus : LoginStatus = .signUp {
         didSet {
-            self.titleLabel.text = (loginStatus == .signUp) ? "Sign up" : "Sign in"
-            self.primaryBtn.setTitle((loginStatus == .signUp) ? "Create account" : "Sign in", for: .normal)
-            self.accessoryBtn.setTitle((loginStatus == .signUp) ? "Already have an account?" : "Don't have an account?", for: .normal)
+            self.titleLabel.text = (loginStatus == .signUp) ? NSLocalizedString("Sign up", comment: "Sign up") : NSLocalizedString("Sign in", comment: "Sign in")
+            self.primaryBtn.setTitle((loginStatus == .signUp) ? NSLocalizedString("Create account", comment: "Create account") : NSLocalizedString("Sign in", comment: "Sign in"), for: .normal)
+            self.accessoryBtn.setTitle((loginStatus == .signUp) ? NSLocalizedString("Already have an account?", comment: "Already have an account?") : NSLocalizedString("Don't have an account?", comment: "Don't have an account?"), for: .normal)
             self.passwordTextField.textContentType = (loginStatus == .signUp) ? .newPassword : .password
         }
     }
@@ -56,8 +56,8 @@ class LoginViewController: UIViewController {
     @IBAction func primaryBtnAction(_ sender: Any) {
         
         if (emailIsEmpty || passwordIsEmpty){
-            let alert = UIAlertController(title: "Missing information", message: "Please make sure to enter a valid email and password", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK ", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: NSLocalizedString("Missing information", comment: "Missing information"), message: NSLocalizedString("Please make sure to enter a valid email and password", comment: "Please make sure to enter a valid email and password"), preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "OK"), style: .cancel, handler: nil))
             self.present(alert, animated: true,completion: nil)
         } else {
             if(loginStatus == .signUp){

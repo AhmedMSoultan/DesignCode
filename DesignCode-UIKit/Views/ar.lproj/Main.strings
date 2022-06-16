@@ -1,0 +1,159 @@
+
+/* Class = "UILabel"; text = "RECENT HANDBOOKS"; ObjectID = "1JH-DA-qPp"; */
+"1JH-DA-qPp.text" = "كتيبات حديثة";
+
+/* Class = "UILabel"; text = "CERTIFICATES"; ObjectID = "1sU-lD-Wau"; */
+"1sU-lD-Wau.text" = "الشهادات";
+
+/* Class = "UILabel"; text = "20 SECTIONS - 3 HOURS"; ObjectID = "2g4-KL-8zj"; */
+"2g4-KL-8zj.text" = "20 قسم - 3 ساعات";
+
+/* Class = "UILabel"; text = "Build an iOS app for iOS 15 with custom layouts , animations and more. "; ObjectID = "378-u2-2iw"; */
+"378-u2-2iw.text" = "أنشئ تطبيق iOS لنظام iOS 15 بتنسيقات مخصصة ورسوم متحركة والمزيد. ";
+
+/* Class = "UIButton"; configuration.subtitle = "Sign in"; ObjectID = "4zJ-SB-cWI"; */
+"4zJ-SB-cWI.configuration.subtitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; configuration.title = "Already have an account?"; ObjectID = "4zJ-SB-cWI"; */
+"4zJ-SB-cWI.configuration.title" = "هل لديك حساب؟";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4zJ-SB-cWI"; */
+"4zJ-SB-cWI.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "8Mp-FS-dhx"; */
+"8Mp-FS-dhx.text" = "وصف";
+
+/* Class = "UILabel"; text = "Notification message"; ObjectID = "8Ws-gW-ebn"; */
+"8Ws-gW-ebn.text" = "رسالة إعلام";
+
+/* Class = "UILabel"; text = "The Course Description is right here."; ObjectID = "8oY-Wy-7OI"; */
+"8oY-Wy-7OI.text" = "وصف الدورة التدريبية موجود هنا.";
+
+/* Class = "UILabel"; text = "Section Description"; ObjectID = "BYd-DP-qKV"; */
+"BYd-DP-qKV.text" = "وصف القسم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C3Y-qF-aj5"; */
+"C3Y-qF-aj5.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Recent"; ObjectID = "CCq-mk-VYf"; */
+"CCq-mk-VYf.text" = "مؤخرًا";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "DmW-6l-TA5"; */
+"DmW-6l-TA5.text" = "العنوان الفرعي";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "GeO-c8-1YK"; */
+"GeO-c8-1YK.text" = "وصف";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "IE4-fl-LvQ"; */
+"IE4-fl-LvQ.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Notification subtitle"; ObjectID = "Icl-Cq-FhK"; */
+"Icl-Cq-FhK.text" = "العنوان الفرعي للإخطار";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "Ie2-MJ-qAV"; */
+"Ie2-MJ-qAV.title" = "إشعارات";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "JSN-9S-llA"; */
+"JSN-9S-llA.placeholder" = "عنوان البريد الالكترونى";
+
+/* Class = "UILabel"; text = "POPULAR"; ObjectID = "MSO-oy-kEA"; */
+"MSO-oy-kEA.text" = "شائع";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NlZ-NL-BDL"; */
+"NlZ-NL-BDL.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Subtitle Label"; ObjectID = "O2A-O8-Wcg"; */
+"O2A-O8-Wcg.text" = "تسمية العنوان الفرعي";
+
+/* Class = "UILabel"; text = "TOPICS"; ObjectID = "OA5-ou-hg9"; */
+"OA5-ou-hg9.text" = "المواضيع";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "P7y-fJ-N60"; */
+"P7y-fJ-N60.text" = "عنوان";
+
+/* Class = "UILabel"; text = "By clicking on Sign up, you agree to our Terms of service and Privacy policy."; ObjectID = "QfE-OU-2j6"; */
+"QfE-OU-2j6.text" = "بالنقر فوق تسجيل ، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "TIk-bX-WVA"; */
+"TIk-bX-WVA.text" = "اشتراك";
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "VdD-og-bJu"; */
+"VdD-og-bJu.title" = "مكتبة";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "VfJ-zo-Tac"; */
+"VfJ-zo-Tac.text" = "اسم المؤلف";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "VuX-zZ-TRM"; */
+"VuX-zZ-TRM.text" = "مكتبة";
+
+/* Class = "UINavigationItem"; title = "Featured"; ObjectID = "XyX-TN-U6L"; */
+"XyX-TN-U6L.title" = "متميز";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Y1L-se-9FV"; */
+"Y1L-se-9FV.text" = "العنوان الفرعي";
+
+/* Class = "UILabel"; text = "RECENT COURSES"; ObjectID = "ZiX-dQ-7Yq"; */
+"ZiX-dQ-7Yq.text" = "الدورات الأخيرة";
+
+/* Class = "UITabBarItem"; title = "Learn Now"; ObjectID = "Zx1-0Z-LgO"; */
+"Zx1-0Z-LgO.title" = "تعلم الآن";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "ajt-ar-ojW"; */
+"ajt-ar-ojW.text" = "العنوان الفرعي";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "apZ-hU-zCw"; */
+"apZ-hU-zCw.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Notification title"; ObjectID = "cmE-w5-zMR"; */
+"cmE-w5-zMR.text" = "عنوان الإشعارات";
+
+/* Class = "UILabel"; text = "Title Label"; ObjectID = "d3s-Fu-AQc"; */
+"d3s-Fu-AQc.text" = "تسمية العنوان";
+
+/* Class = "UILabel"; text = "Title Label"; ObjectID = "eKu-t0-J7Q"; */
+"eKu-t0-J7Q.text" = "تسمية العنوان";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eqc-Xe-zc2"; */
+"eqc-Xe-zc2.text" = "مُلصَق";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "fPR-QV-Jp4"; */
+"fPR-QV-Jp4.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Access 120+ hours of courses , tutorials and livestreams"; ObjectID = "haE-Wo-bPx"; */
+"haE-Wo-bPx.text" = "الوصول إلى أكثر من 120 ساعة من الدورات التدريبية والبرامج التعليمية والبث المباشر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hrP-w4-Bdt"; */
+"hrP-w4-Bdt.text" = "مُلصَق";
+
+/* Class = "UILabel"; text = "Subtitle Label"; ObjectID = "iFS-AU-xin"; */
+"iFS-AU-xin.text" = "تسمية العنوان الفرعي";
+
+/* Class = "UILabel"; text = "Section Title"; ObjectID = "kC6-wZ-Oxq"; */
+"kC6-wZ-Oxq.text" = "تسمية العنوان الفرعي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lkF-lw-uyG"; */
+"lkF-lw-uyG.normalTitle" = "زر";
+
+/* Class = "UIButton"; configuration.title = "Create account"; ObjectID = "oe0-we-41J"; */
+"oe0-we-41J.configuration.title" = "إصنع حساب";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oe0-we-41J"; */
+"oe0-we-41J.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "sMQ-K3-5Pz"; */
+"sMQ-K3-5Pz.text" = "إشعارات";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "vae-Sa-zi6"; */
+"vae-Sa-zi6.text" = "SwiftUI لنظام iOS 15";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "wA9-oI-lGi"; */
+"wA9-oI-lGi.text" = "العنوان الفرعي";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "wwM-YH-5sS"; */
+"wwM-YH-5sS.text" = "العنوان الفرعي";
+
+/* Class = "UITabBarItem"; title = "Explore"; ObjectID = "xWh-ht-L31"; */
+"xWh-ht-L31.title" = "يكتشف";
+
+/* Class = "UILabel"; text = "The Course Description is right here."; ObjectID = "zs9-AB-Jij"; */
+"zs9-AB-Jij.text" = "وصف الدورة التدريبية موجود هنا.";

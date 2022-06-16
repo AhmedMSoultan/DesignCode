@@ -53,22 +53,22 @@ class CoursesViewController: UIViewController {
                           options: .displayInline,
                           children: [
                           
-                            UIAction(title: "Share",
+                            UIAction(title: NSLocalizedString("Share", comment: "Share"),
                                      image: UIImage(systemName: "square.and.arrow.up"),
                                      handler: { action in
                                          //  Share course
                                      }),
-                            UIAction(title: "Take Test",
+                            UIAction(title: NSLocalizedString("Take Test", comment: "Take Test"),
                                      image: UIImage(systemName: "highlighter"),
                                      handler: { action in
                                          // Take Course Test
                                      }),
-                            UIAction(title: "Download",
+                            UIAction(title: NSLocalizedString("Download", comment: "Download"),
                                      image: UIImage(systemName: "square.and.arrow.down"),
                                      handler: { action in
                                          // Download Course
                                      }),
-                            UIAction(title: "Forums",
+                            UIAction(title: NSLocalizedString("Forums", comment: "Forums"),
                                      image: UIImage(systemName: "chevron.left.forwardslash.chevron.right"),
                                      handler: { action in
                                          //Forums
